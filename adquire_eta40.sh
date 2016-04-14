@@ -398,7 +398,8 @@ echo "say shape" >>figura3.gs
 echo "'plota_hidrografia.gs'"     >>figura3.gs
 echo "plotausina(bacia,page)" >>figura3.gs  
 echo "'cbarn.gs 1.0 0 '" >>figura3.gs
-echo "'printim 'bacia'_diaria_'var1'.png white'"                       >>figura3.gs
+echo "'printim 'bacia'_diaria_'t'.png white'"                       >>figura3.gs
+
 #echo "jj=write('lista_de_figuras.dat',bacia'_diaria_'var1'.png') " >>figura3.gs
 echo "jj=write('lista_de_figuras.dat',bacia'_diaria_'t'.png') " >>figura3.gs
 echo "'c'"                                                             >>figura3.gs

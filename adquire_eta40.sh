@@ -301,7 +301,7 @@ echo "endif"                    >>figura3.gs
 echo "'plota_hidrografia.gs'"     >>figura3.gs  
 echo "plotausina(bacia,page)" >>figura3.gs    
 echo "'cbarn.gs 1.0 0 '" >>figura3.gs
-echo "'printim 'bacia'_semanaoperativa_1_"$data".png white'"                       >>figura3.gs
+echo "'printim 'bacia'_semanaoperativa_1_'t'.png white'"                       >>figura3.gs
 #echo "jj=write('lista_de_figuras.dat',bacia'_semanaoperativa_1_$data.png') " >>figura3.gs
 echo "jj=write('lista_de_figuras.dat',bacia'_semanaoperativa_1_'t'.png') " >>figura3.gs
 #
@@ -331,7 +331,7 @@ echo "endif"                    >>figura3.gs
 echo "'plota_hidrografia.gs'"     >>figura3.gs  
 echo "plotausina(bacia,page)" >>figura3.gs    
 echo "'cbarn.gs 1.0 0 '" >>figura3.gs
-echo "'printim 'bacia'_semanaoperativa_2_"$data".png white'"                       >>figura3.gs
+echo "'printim 'bacia'_semanaoperativa_2_'t'.png white'"                       >>figura3.gs
 #echo "jj=write('lista_de_figuras.dat',bacia'_semanaoperativa_2_$data.png') " >>figura3.gs
 echo "jj=write('lista_de_figuras.dat',bacia'_semanaoperativa_2_'t'.png') " >>figura3.gs
 # FIGURA RETRATO SEMANA 7 DIAS CORRIDOS 
@@ -362,7 +362,7 @@ echo "endif"                    >>figura3.gs
 echo "'plota_hidrografia.gs'"     >>figura3.gs
 echo "plotausina(bacia,page)" >>figura3.gs  
 echo "'cbarn.gs 1.0 0 '" >>figura3.gs
-echo "'printim 'bacia'_prec07dias_"$data"_"$hora"Z.png white'"       >>figura3.gs
+echo "'printim 'bacia'_prec07dias.png white'"       >>figura3.gs
 #echo "jj=write('lista_de_figuras.dat',bacia'_prec07dias_'"$data"_"$hora"'Z.png') " >>figura3.gs
 echo "jj=write('lista_de_figuras.dat',bacia'_prec07dias.png') " >>figura3.gs
 echo "*say t0"                           >>figura3.gs
@@ -399,9 +399,6 @@ echo "'plota_hidrografia.gs'"     >>figura3.gs
 echo "plotausina(bacia,page)" >>figura3.gs  
 echo "'cbarn.gs 1.0 0 '" >>figura3.gs
 echo "'printim 'bacia'_diaria_'t'.png white'"                       >>figura3.gs
-
-#echo "jj=write('lista_de_figuras.dat',bacia'_diaria_'var1'.png') " >>figura3.gs
-echo "jj=write('lista_de_figuras.dat',bacia'_diaria_'t'.png') " >>figura3.gs
 echo "'c'"                                                             >>figura3.gs
 echo "t=t+1"                    >>figura3.gs
 echo "'c'"                    >>figura3.gs
